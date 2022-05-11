@@ -229,3 +229,22 @@ button:hover {
 .round input[type="checkbox"]:checked+label:after {
   opacity: 1;
 }
+
+@media (max-width: 430px) {
+  body {
+    font-size: 10px;
+  }
+  .container {
+    height: 100vh;
+    width: 100vw;
+  }
+  .container__title {
+    height: 10%;
+  }
+  .container__todos {
+    height: 90%;
+  }
+  button {
+    font-size: 10px !important;
+  }
+}
