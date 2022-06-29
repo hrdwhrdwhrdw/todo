@@ -13,9 +13,9 @@ function App() {
     fetch("https://jsonplaceholder.typicode.com/todos?_limit=5")
       .then((response) => response.json())
       .then((todos) => {
-        setTodos(todos); 
-        setLoading(false)}
-      );
+        setTodos(todos);
+        setLoading(false);
+      });
   }, []);
 
   function toggleTodo(id) {
